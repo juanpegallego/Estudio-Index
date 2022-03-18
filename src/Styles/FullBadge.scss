@@ -1,0 +1,19 @@
+.fullbadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    max-width: 50px;
+    position: relative;
+    left: -20px;
+    margin-left: 20px;
+    .icon{
+        font-size: medium;
+        
+    }
+    .badge__text{
+        font-style: italic;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+}
